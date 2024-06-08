@@ -1,0 +1,50 @@
+/*Box Model*/
+/* * {
+    outline: 2px solid red;
+} */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 100px;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1500px;
+}
+
+h1, h2{
+    color: black;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexbox div{
+    display: flex;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.card {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 20px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
